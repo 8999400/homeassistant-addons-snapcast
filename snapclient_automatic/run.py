@@ -168,7 +168,7 @@ async def handle_sink_added(pulse: PulseAsync, config: dict, sink_index: int) ->
         if result_latency is None:
             _LOGGER.info("Using default latency setting")
         else:
-            _LOGGER.info("Using latency override (Latency = %s)",
+            _LOGGER.info("Using latency override (latency = %s)",
                          result_latency)
 
         device_mac = sink_properties["device.string"]
