@@ -2,7 +2,7 @@ name: Snapcast Client (Automatic)
 version: "0.1.20"
 slug: snapcast_client_automatic
 description: Automatically create Snapcast clients for each soundcard of your HASS server
-url: https://github.com/cr7pt0gr4ph7/homeassistant-addons-snapcast/tree/main/snapclient
+url: https://github.com/8999400/homeassistant-addons-snapcast/tree/main/snapclient
 startup: services
 boot: auto
 init: false
